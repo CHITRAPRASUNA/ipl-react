@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: #0f172a;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 45%;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+}
+.match-card-logo {
+  width: 70px;
+  height: 70px;
+}
+.match-card-name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: antiquewhite;
+  text-align: center;
+}
+.match-card-result {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: antiquewhite;
+  text-align: center;
+}
+.match-status {
+  font-size: 18px;
+  font-family: 'Bree serif';
+}
